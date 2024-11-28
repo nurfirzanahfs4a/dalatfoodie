@@ -1,0 +1,95 @@
+.navbar {
+  overflow: hidden;
+ align:center;
+  background-color:#095e39; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 12px 50px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 12px 50px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #64ba64;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  padding: 2px 50px;
+  left: 8px;
+  background-color: #64ba64;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+
+
+
+.header{
+font-size:25px; 
+background-image:url('bg1.5.jpg'); 
+}
+
+
+  .ok{
+  background-color:#33cc66;
+  text-align:center;
+  width: 25%;
+ margin-left:38%;
+  font-family:'Outfit',sans-serif ;
+  
+  }
+
+.main{
+  font-size: 20px; 
+  padding: 0px 10px;
+  font-style:sans-serif ;
+  }
+
+
+.sip{
+text-align:center;
+font-size:20px;
+}
+
+
+.img{
+ margin-left:15%;
+}
